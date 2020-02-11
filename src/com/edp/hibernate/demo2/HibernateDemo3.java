@@ -45,6 +45,7 @@ public class HibernateDemo3 {
 		}
 		// 使用批量抓取
 		// 在Customer.hbm.xml中设置<set name="linkMans" batch-size="4">
+		//batch-size默认是1
 		// 只发送2条sql语句
 		transaction.commit();
 	}
@@ -70,7 +71,7 @@ public class HibernateDemo3 {
 			System.out.println(linkMan.getCustomer().getCust_name());
 		}
 		// 使用批量抓取
-		// 在Customer.hbm.xml中设置<set name="linkMans" batch-size="4">
+		// 在Customer.hbm.xml中设置	<class name="com.edp.hibernate.domain.Customer" table="cst_customer" batch-size="4" >
 		// 只发送2条sql语句
 		transaction.commit();
 	}

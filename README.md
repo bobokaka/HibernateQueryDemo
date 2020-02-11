@@ -4,6 +4,11 @@
 # Hibernate版本
 hibernate-core-5.4.10
 
+# 知识点说明：
+[【Java中级】10.0 SSH之Hibernate框架（八）——Hibernate的查询方式之HQL检索](https://www.jianshu.com/p/4cf820738e3a)
+[【Java中级】11.0 SSH之Hibernate框架（九）——Hibernate的查询方式之QBC检索](https://www.jianshu.com/p/eda536fecd1b)
+[【Java中级】12.0 SSH之Hibernate框架（十）——HQL的多表查询、SQL检索和抓取策略](https://www.jianshu.com/p/f44eb7d0a2b7)
+
 # src代码结构的部分说明
 不同的查询方式：
 

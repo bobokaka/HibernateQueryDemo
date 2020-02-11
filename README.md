@@ -1,7 +1,7 @@
 # HibernateQueryDemo
 一个Hibernate的查询的demo示范案例
 
-#Hibernate版本
+# Hibernate版本
 hibernate-core-5.4.10
 
 # src代码结构的部分说明
